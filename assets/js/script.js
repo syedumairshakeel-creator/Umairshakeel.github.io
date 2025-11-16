@@ -1,4 +1,3 @@
-<script>
 document.querySelectorAll('.border-box').forEach((section) => {
   const svg = section.querySelector('svg');
   const boxes = svg.querySelectorAll('.box');
@@ -95,29 +94,9 @@ document.querySelectorAll('.border-box').forEach((section) => {
   animateDash();
   updateDashPattern();
 });
-</script>
 
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
- <!-- jQuery & Slick JS -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-  <!-- AOS JS -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<style>
-  /* Smooth native scrolling for anchor links */
-  html { scroll-behavior: smooth; }
-
-  /* demo styles */
-</style>
-
- <script>
-    // initialize after DOM ready
+// initialize after DOM ready
     document.addEventListener('DOMContentLoaded', function () {
       AOS.init({
         offset: 120,        // offset (px) from the original trigger point
@@ -133,10 +112,9 @@ document.querySelectorAll('.border-box').forEach((section) => {
     // keep AOS in sync if layout changes (images load, dynamic content)
     window.addEventListener('load', () => AOS.refresh());
     window.addEventListener('resize', () => AOS.refresh());
-  </script>
 
 
-  <script>
+
     $(document).ready(function(){
       // Image slider (fade)
       $('.slider-images').slick({
@@ -179,4 +157,3 @@ document.querySelectorAll('.border-box').forEach((section) => {
 
 
     });
-  </script>
