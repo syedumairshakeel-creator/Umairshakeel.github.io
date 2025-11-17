@@ -511,6 +511,10 @@ section {
 }
 
 
+section.inner-sec-1.inner-sec-2 {
+    overflow: unset;
+}
+
 /* //////////////////////////////Media Query/////////////////////////////////////////// */
 
 
